@@ -1,1 +1,2 @@
-- sử dụng useReduce khi cần quản lý nhiều state
+- phút 19: sử dụng useReduce khi cần quản lý nhiều state.
+- phút 41: không nên sử dụng dom.getElementById trong React component vì nó đang can thiệp trực tiếp vô DOM, trong khi đó thì React đang dùng DOM giả. Giải pháp là dùng useRef.
