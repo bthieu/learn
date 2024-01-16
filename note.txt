@@ -1,2 +1,3 @@
 - phút 19: sử dụng useReduce khi cần quản lý nhiều state.
 - phút 41: không nên sử dụng dom.getElementById trong React component vì nó đang can thiệp trực tiếp vô DOM, trong khi đó thì React đang dùng DOM giả. Giải pháp là dùng useRef.
+- phút 48: callback của useLayoutEffect được gọi trước useEffect, nó được gọi ở giai đoạn render, trong khi đó useLayoutEffect được gọi ở giai đoạn sau của quá trình render, khi mọi thứ đã render xong rồi.
