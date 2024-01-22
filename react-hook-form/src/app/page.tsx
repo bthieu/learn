@@ -1,9 +1,11 @@
 import SimpleForm from "./components/simple-form";
+import FormWithReactHookForm from "./components/form-with-react-hook-form";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <SimpleForm />
+      {/* <SimpleForm /> */}
+      <FormWithReactHookForm />
     </main>
   )
 }
